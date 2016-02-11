@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RustyLib">
+      <UniqueIdentifier>{13b10584-0514-45c5-b6f7-bc21eb8c1045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib">
+      <UniqueIdentifier>{eb05625b-4e01-4813-9da7-34f571567278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Audio">
+      <UniqueIdentifier>{0d365892-7d4c-42bb-ab51-f95e134663ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Geometry">
+      <UniqueIdentifier>{9beb0500-4198-4c88-823f-e2d3fa08ebd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Physics">
+      <UniqueIdentifier>{c02d6226-10d6-43b4-b09b-30f2bb912cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Scripting">
+      <UniqueIdentifier>{4026e9e1-23fd-47eb-8876-4081c9b2b47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Audio\AudioTypes">
+      <UniqueIdentifier>{111862c1-39cc-472a-8970-aad65fb7d1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Audio">
+      <UniqueIdentifier>{dd7ca467-199b-46c8-95b9-91410053b8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Audio\AudioTypes">
+      <UniqueIdentifier>{8ada7d1c-b9bb-4381-b293-932750c40ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Graphics">
+      <UniqueIdentifier>{6821b290-34bf-48e9-af02-d99b6c6b34b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Math">
+      <UniqueIdentifier>{85a220be-d888-412e-9a83-03ffd2df03f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Geometry">
+      <UniqueIdentifier>{6b1ab592-7737-4f15-96ff-39dfd15f9a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Graphics">
+      <UniqueIdentifier>{74877611-56a0-473c-9885-af95d8be68cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Physics">
+      <UniqueIdentifier>{f8002b4c-8dbb-49df-940d-b15f2378e393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Scripting">
+      <UniqueIdentifier>{3c184a4f-7ed3-4fbb-8f37-39d8c37a6d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Asteroids">
+      <UniqueIdentifier>{80caae4d-8045-4307-8408-e6fcf43dd1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asteroids">
+      <UniqueIdentifier>{fd8e95f4-b701-4dff-b233-0c545c47fcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Framework">
+      <UniqueIdentifier>{5eb93e32-51d2-4939-8570-4f803357a41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Framework">
+      <UniqueIdentifier>{9d6d60cc-76a7-4675-a0ca-8f142681bc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Framework\ScreenManagement">
+      <UniqueIdentifier>{3b42abe5-b07e-441c-9317-0e083906922a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Framework\ScreenManagement">
+      <UniqueIdentifier>{caf5619b-2dde-46c1-8508-b41d95991327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Asteroids\Screens">
+      <UniqueIdentifier>{28dfe261-0d8b-4048-a5fe-07e716897f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Asteroids\Screens">
+      <UniqueIdentifier>{3465ab80-534c-422f-9e16-7959712ccbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Math">
+      <UniqueIdentifier>{9fdbae8f-2995-4b59-a94e-5f751789c14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{f6978b13-bdec-40ac-a78a-822c38814fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RustyLib\Input">
+      <UniqueIdentifier>{a152608a-e6d9-4eaf-8343-ae86309a4b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RustyLib\Input">
+      <UniqueIdentifier>{953a7835-c374-4df8-b060-e1774171d6d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opengl_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\RustyLib\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAudioData.cpp">
+      <Filter>Source Files\RustyLib\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAudioManager.cpp">
+      <Filter>Source Files\RustyLib\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAmbience.cpp">
+      <Filter>Source Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAudio.cpp">
+      <Filter>Source Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="RLSoundEffect.cpp">
+      <Filter>Source Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="RLTrack.cpp">
+      <Filter>Source Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaUtils.cpp">
+      <Filter>Source Files\RustyLib\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="RLBoundingSphere.cpp">
+      <Filter>Source Files\RustyLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RLRay.cpp">
+      <Filter>Source Files\RustyLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RLRenderer.cpp">
+      <Filter>Source Files\RustyLib\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="RLScreenManager.cpp">
+      <Filter>Source Files\RustyLib\Framework\ScreenManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="RLScreen.cpp">
+      <Filter>Source Files\RustyLib\Framework\ScreenManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Source Files\Asteroids\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Source Files\Asteroids\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Asteroids\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="RLKeyboard.cpp">
+      <Filter>Source Files\RustyLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="RLAABoundingBox.cpp">
+      <Filter>Source Files\RustyLib\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StarField.cpp">
+      <Filter>Source Files\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files\Asteroids\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="RLStopWatch.cpp">
+      <Filter>Source Files\RustyLib\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\RustyLib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAudioData.h">
+      <Filter>Header Files\RustyLib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAudioManager.h">
+      <Filter>Header Files\RustyLib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAudioUtilities.h">
+      <Filter>Header Files\RustyLib\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAmbience.h">
+      <Filter>Header Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAudio.h">
+      <Filter>Header Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAudioTypes.h">
+      <Filter>Header Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="RLSoundEffect.h">
+      <Filter>Header Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="RLTrack.h">
+      <Filter>Header Files\RustyLib\Audio\AudioTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="RLCircle.h">
+      <Filter>Header Files\RustyLib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RLTriangle.h">
+      <Filter>Header Files\RustyLib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\RustyLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RLRay.h">
+      <Filter>Header Files\RustyLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RLBoundingSphere.h">
+      <Filter>Header Files\RustyLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RLRenderer.h">
+      <Filter>Header Files\RustyLib\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaGraphics.h">
+      <Filter>Header Files\RustyLib\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaUtilities.h">
+      <Filter>Header Files\RustyLib\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="RLMatrix.h">
+      <Filter>Header Files\RustyLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RLVector.h">
+      <Filter>Header Files\RustyLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RustyLib.h">
+      <Filter>Header Files\RustyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="RLUtilities.h">
+      <Filter>Header Files\RustyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="RLError.h">
+      <Filter>Header Files\RustyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Header Files\RustyLib\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RLScreenManager.h">
+      <Filter>Header Files\RustyLib\Framework\ScreenManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="RLScreen.h">
+      <Filter>Header Files\RustyLib\Framework\ScreenManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Header Files\Asteroids\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Header Files\Asteroids\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Asteroids\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="RLKeyboard.h">
+      <Filter>Header Files\RustyLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\RustyLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="RLAABoundingBox.h">
+      <Filter>Header Files\RustyLib\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StarField.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Header Files\Asteroids\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="RLStopWatch.h">
+      <Filter>Header Files\RustyLib\Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassTemplate.txt" />
+    <None Include="config\player_config.ini">
+      <Filter>Source Files\config</Filter>
+    </None>
+    <None Include="config\asteroid_config.ini">
+      <Filter>Source Files\config</Filter>
+    </None>
+    <None Include="config\game_screen_config.ini">
+      <Filter>Source Files\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

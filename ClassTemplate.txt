@@ -1,0 +1,29 @@
+#pragma once
+
+//System Includes
+
+
+//Local Includes
+
+
+//Using Statements
+
+
+namespace RustyLib
+{
+	namespace SubSystem
+	{
+		class RLClassName
+		{
+		private:
+
+		public:
+			RLClassName(void );
+			~RLClassName(void );
+
+			void operator=(const RLClassName&);
+		};
+
+		typedef RLClassName ClassName;
+	}
+}
